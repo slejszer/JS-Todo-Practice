@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>to do list</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="to do list.css">
+  </head>
+  <body>
+    <div class="todo-grid todo-input">
+      <input class="js-input input" placeholder="type something">
+      <input class="js-data data" type="date">
+      <button class="js-add add" onclick="
+      extractInput();
+      todoUpdate();
+      ">Add</button>
+    </div>
+
+    <div class="js-todo-grid todo-grid"></div>
+
+    <script src="to do list.js"></script>
+  </body>
+</html>
